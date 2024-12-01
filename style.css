@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+ 
+html{
+    font-size: 62.5%;
+}
+/* ===================Common css=============== */
+.container{
+    width: 102rem;
+    margin: 0 auto;
+}
+.btn{
+    color: white;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    background-color: #FB2259;
+    padding: 1.2rem;
+    border-radius: .5rem;
+    font-size: 2rem;
+    display: inline-block;
+    /* margin: 1.5rem; */
+}
+/*============= header section start here============= */
+header{
+    background-image: url(images/dawn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.411);
+    background-blend-mode: multiply;
+    padding: 1.5rem 0;
+    color: #fff;
+}
+    
+
+.head-wrapper{
+   
+    display: flex;
+    align-items: center;justify-content: space-between;
+
+
+}
+.logo{
+    width: 20%;
+}
+.logo h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.logo h2 span{
+    font-size: 1.8rem;
+    font-weight: 400;
+    display: block;
+}
+
+.navbar{
+    width: 80%;
+
+}
+.navbar ul{
+    display: flex;
+    gap: 2.5rem;
+    justify-content:end;
+    
+    
+}
+.navbar ul li{
+
+}
+.navbar ul li a{
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #fff;
+
+}
+.head-content{
+    text-align: center;
+    padding: 15rem 0 12rem 0;
+}
+.head-content h2{
+    font-size: 4rem;
+    font-style: italic;
+    font-weight: 500;
+}
+.devider{
+    width: 12rem;
+    height: .6rem;
+    background: #FB2259;
+    display: block;
+    margin: auto;
+    margin-top: 1.5rem;
+}
+.head-content h1{
+    font-size: 8.3rem;
+    font-weight: 600;
+    margin: 3.5rem;
+    text-transform: uppercase;
+    /* margin-bottom: 1rem; */
+}
+
+/*============= header section End here============= */
+/*============= Event section Start here============= */
+.event{
+    margin: 7.5rem 0 12.5rem 0;
+}
+.event_headline{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 5.2rem;
+    font-weight: 600;
+}
+.event_wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 2ren;
+    
+
+}
+.events_items{
+    text-align: center;
+    padding: 2rem;
+    
+}
+.events_items img{
+    height: 36rem;
+    width: 100%;
+    /* width: 41rem; */
+    object-fit: cover;
+    border-radius: .5rem;
+    box-shadow: 1rem 1rem .2rem #8080807d;
+    display: block;
+}
+.events_items h2{
+    font-size: 4rem;
+    /* text-align: center; */
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+    text-transform: uppercase;
+}
+.events_items p{
+   font-size: 2rem; 
+   font-weight: 400;
+   color: #373737;
+}
+.events_items a{
+    font-size: 2.3rem;
+    color: #FB2259;
+    text-transform: capitalize;
+    margin-top: 1.5rem;
+    display: block;
+    letter-spacing: .25rem;
+}
+/*============= Event section End here============= */
+/* ======EXPLORE THE WORLD  section Start here===== */
+.explore{
+    background-image: url(images/father.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #1767d6b8;
+    background-blend-mode: multiply;
+    padding: 15rem 0;
+    margin-top: 10rem;
+    color: white;
+    background-attachment: fixed;
+}
+
+.explore_wrapper{
+    display: flex;
+    justify-content: end;
+}
+.column{
+    width: 50%;
+}
+.column h2 {
+    font-size: 7rem;
+    text-transform: uppercase;
+}
+.column .devider{
+    margin: unset;
+    margin: 2rem 0 2.5rem 0;
+}
+.column p {
+    font-size: 2rem;
+    margin: 1rem 0 2.5rem 0;
+}
+.column a {
+   font-size: 2rem;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+/* ======EXPLORE THE WORLD  section End here===== */
+
+/* ===========tour-section start here========== */
+.tour_section{
+    padding: 60px 0;
+}
+.tour_wrapper{
+ display: flex;
+}
+.tour-col{
+    padding: 10px;
+    width: 33.33%;
+}
+.tour-col h2{
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+.tour-col .devider{
+    margin: unset;
+    margin: .5rem 0 2.5rem 0;
+}
+.tour-col p{
+    font-size: 2rem;
+    letter-spacing: .2rem;
+    margin-bottom: 1.8rem;
+    
+
+}
+.tour-col a{
+border-radius: 2.5rem;
+
+}
+.tour-col  img{
+    object-fit: cover;
+    width: 100%;
+}
+.small{
+    height: 310px;
+    object-fit: cover;
+    margin-bottom: 20px;
+
+}
+.big{
+    height: 420px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* ============tour-section End here============ */
